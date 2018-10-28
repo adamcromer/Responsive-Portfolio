@@ -1,0 +1,270 @@
+body {
+    color:#444349;
+    background-image:url(/homework1/assets/images/stardust.png);
+    margin:0px;
+    padding:0px;
+    font-size:18px;
+    line-height:150%;
+    font-family: 'Raleway', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+    margin:0px;
+    font-size:14px;
+    font-family: 'Playfair Display', 'Georgia', Times, Times New Roman, serif;  
+    color:#444349;
+    background-color:#abc4ab;
+    padding:0px;
+    height:100px;
+    border-bottom:3px solid #dcd6f7;
+}
+
+#Head-Cont {
+    width:920px;
+    margin:0px 0px 0px 175px;
+    padding:0px;
+    height:100px;
+}
+
+#Header-Name {
+    margin: 0px 0px 0px 0px;
+    width: 250px;
+    height: 65px;
+    padding: 35px 0px 0px 0px;
+    text-align:center;
+    background-color:#F7F7F2;
+    float:left;
+    font-size:24px;
+    font-weight:bolder;
+}
+
+nav {
+    float:right;
+}
+
+.NavBarLinks {
+    float:left;
+    margin:35px 0px 0px 20px;
+    padding:5px;
+    text-align:right;
+    font-size:18px;
+    font-weight:bold;
+    transition: background-color 0.5s ease;
+}
+
+.NavBarLinks:hover {
+    background-color:#444349;
+    color:#F7F7F2;
+}
+
+.NavRight {
+    margin-right:-5px;
+    padding-right:5px;
+}
+
+h2 {
+    background-color:#F7F7F2;
+    padding: 10px 20px 30px 20px;
+    color:#444349;
+    margin:40px 30px 20px 30px;
+    border-bottom:1px solid black;
+    font-family: 'Playfair Display', 'Georgia', Times, Times New Roman, serif; 
+    font-size:24px;
+    font-weight:bolder;
+}
+
+
+ul {
+    font-weight:bold;
+    margin-left:10px;
+    
+}
+
+a {
+    color:#444349;
+    text-decoration:none;
+}
+
+#Main-Bio,
+#Bio-Image,
+#Contact-Info {
+    float:left;
+}
+
+#Main-Bio { 
+    width:920px;
+    margin:35px 0px 60px 175px;
+    padding:0px 0px 30px 0px;
+    background-color:#F7F7F2;
+    color:#444349;
+}
+
+.BioLength {
+    height:540px;
+}
+
+#Contact-Info {
+    width:30%;
+}
+
+#Bio-Image {
+    margin:55px 20px 30px 50px;
+    float:left;
+    background-image: url(/homework1/assets/images/adamfamilytest2.jpg);
+    width:200px;
+    height:299px;
+    transition: background-image 0.3s ease;
+}
+
+#Bio-Image:hover {
+    background-image: url(/homework1/assets/images/family1.jpg);
+    width:200px;
+    height:250px;
+}
+#Bio-Text {
+    margin: 50px 50px 20px 280px;
+}
+
+.clearfix::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+footer {
+    clear:both;
+    height:50px;
+    background-color:#dcd6f7;
+    margin:0px 0px 0px 0px;
+    padding:40px 0px 0px 0px;
+    text-align:center;
+    border-top:5px solid #abc4ab;
+    font-style:italic;
+    font-size:14px;
+    font-family: 'Playfair Display', serif;
+}
+
+#Footer-Text {
+    height:60px;
+    line-height:60px;
+    padding:10px 0px 0px 0px;
+    margin:120px 0px 0px 0px;
+}
+
+.PortSquares {
+    width:300px;
+    height:200px;
+    float:left;
+    margin:20px 0px 20px 105px;
+}
+
+.PortBanners {
+    background-color:#dcd6f7;
+    margin-top:120px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:center;
+    color:#444349;
+    font-weight:bold;
+    font-size:22px;
+    transition: background-image 0.3s ease;
+}
+
+.PortBanners:hover {
+    background-color:#444349;
+    color:#F7F7F2;
+    font-weight:bolder;
+    font-size:26px;
+}
+
+#PortImage1 {
+    background-image:url(/homework1/assets/images/moth1.png);
+    width:300px;
+    height:200px;
+}
+
+#PortImage2 {
+    background-image:url(/homework1/assets/images/moth2.png);
+    width:300px;
+    height:200px;
+}
+
+#PortImage3 {
+    background-image:url(/homework1/assets/images/moth3.png);
+    width:300px;
+    height:200px;
+}
+
+#PortImage4 {
+    background-image:url(/homework1/assets/images/moth4.png);
+    width:300px;
+    height:200px;
+}
+
+#Contact-Info {
+    width:30%;
+    margin:10px 0px 20px 30px;
+    border-left:1px solid black;
+    float:left;
+}
+
+#Contact-Input {
+    border-left:1px solid black;
+    margin:10px 30px 20px 25px;
+    float:left;
+    width:554px;
+    padding:0px;
+}
+
+.ContOption {
+    width:90%;
+    /* background-color:red; */
+    margin:10px;
+}
+
+input[type=text]:focus {
+    background-color:#dcd6f7;
+    color:#444349;
+}
+
+.CommentInput[type=text]:focus {
+    background-color:#dcd6f7;
+    color:#444349;
+}
+
+label,
+input {
+    width:100%;
+    margin-right:30px;
+} 
+
+#fname,
+#lname,
+#email,
+#comment {
+    margin:10px 10px;
+    
+}
+
+label {
+    font-weight:bolder;
+}
+.CommentInput {
+    height:200px;
+    width:100%;
+}
+
+.SubmitButton,
+.ResetButton {
+    margin-left:20px;
+}
+
+.SubmitButton {
+    float:left;
+    width:200px;
+}
+
+.ResetButton {
+    float:right;
+    width:100px;
+}
