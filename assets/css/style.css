@@ -1,7 +1,13 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
 body {
     color:#444349;
     background-image:url(../images/stardust.png);
     margin:0px;
+    margin-bottom: 60px; 
     padding:0px;
     font-size:18px;
     line-height:150%;
@@ -9,26 +15,29 @@ body {
 }
 
 header {
-    margin:0px; 
-    font-size:14px;
+    margin:auto; 
+    font-size:3vw;
     font-family: 'Playfair Display', 'Georgia', Times, Times New Roman, serif;  
     color:#444349;
     background-color:#abc4ab;
     padding:0px;
     height:100px;
     border-bottom:3px solid #dcd6f7;
+    width:100%;
+    position:absolute;
 }
 
 #Head-Cont {
-    width:920px;
-    margin:0px 0px 0px 175px;
+    width:80%;
+    margin:0px 10%;
     padding:0px;
     height:100px;
+    position:relative;
 }
 
 #Header-Name {
     margin: 0px 0px 0px 0px;
-    width: 250px;
+    width: 20%;
     height: 65px;
     padding: 35px 0px 0px 0px;
     text-align:center;
@@ -40,14 +49,18 @@ header {
 
 nav {
     float:right;
+    width:40%;
+    position:absolute;
+    top:40%;
+    right:0%;
 }
 
 .NavBarLinks {
     float:left;
-    margin:35px 0px 0px 20px;
-    padding:5px;
-    text-align:right;
-    font-size:18px;
+    width:33%;
+    padding:auto;
+    text-align:center;
+    font-size:1.5vw;
     font-weight:bold;
     transition: background-color 0.5s ease;
 }
@@ -57,10 +70,7 @@ nav {
     color:#F7F7F2;
 }
 
-.NavRight {
-    margin-right:-5px;
-    padding-right:5px;
-}
+
 
 h2 {
     background-color:#F7F7F2;
@@ -69,7 +79,7 @@ h2 {
     margin:40px 30px 20px 30px;
     border-bottom:1px solid black;
     font-family: 'Playfair Display', 'Georgia', Times, Times New Roman, serif; 
-    font-size:24px;
+    font-size:2vw;
     font-weight:bolder;
 }
 
@@ -92,15 +102,11 @@ a {
 }
 
 #Main-Bio { 
-    width:920px;
-    margin:35px 0px 60px 175px;
-    padding:0px 0px 30px 0px;
+    width:80%;
+    margin: 10%;
+    padding:auto;
     background-color:#F7F7F2;
     color:#444349;
-}
-
-.BioLength {
-    height:540px;
 }
 
 #Contact-Info {
@@ -108,11 +114,10 @@ a {
 }
 
 #Bio-Image {
-    margin:55px 20px 30px 50px;
+    margin:20px;
     float:left;
     background-image: url(../images/adamfamilytest2.jpg);
-    width:200px;
-    height:299px;
+    width:50%;
     transition: background-image 0.3s ease;
 }
 
@@ -122,7 +127,7 @@ a {
     height:250px;
 }
 #Bio-Text {
-    margin: 50px 50px 20px 280px;
+    margin: auto;
 }
 
 .clearfix::after {
@@ -134,18 +139,21 @@ a {
 footer {
     clear:both;
     height:50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background-color:#dcd6f7;
-    margin:0px 0px 0px 0px;
+    margin:50px 0px 0px 0px;
     padding:40px 0px 0px 0px;
     text-align:center;
-    border-top:5px solid #abc4ab;
+    border-top:0.5vw solid #abc4ab;
     font-style:italic;
-    font-size:14px;
+    font-size:1.5vw;
     font-family: 'Playfair Display', serif;
 }
 
 #Footer-Text {
-    height:60px;
+    height:10%;
     line-height:60px;
     padding:10px 0px 0px 0px;
     margin:120px 0px 0px 0px;
