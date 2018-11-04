@@ -104,12 +104,17 @@
     nav {
         width:60%;
     }
-    
+
     .NavBarLinks {
         font-size:4vw;
     }
 
     h2 {
         font-size:5vw;
+    }
+
+    nav,
+    #Header-Name {
+        top:20%;
     }
 }
