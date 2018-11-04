@@ -7,7 +7,6 @@ body {
     color:#444349;
     background-image:url(../images/stardust.png);
     margin:0px;
-    margin-bottom: 60px; 
     padding:0px;
     font-size:18px;
     line-height:150%;
@@ -90,9 +89,7 @@ h2 {
 
 
 ul {
-    font-weight:bold;
-    margin-left:10px;
-    
+    font-weight:bold;    
 }
 
 a {
@@ -163,17 +160,18 @@ footer {
 .PortSquares {
     position: relative;
     float: left;
-    max-width: 35%;
+    width: 35%;
     height: auto;
     margin-top:2vw;
     margin-bottom:2vw;
     margin-left:15%;
+    background-color:red;
   }
      
  .PortBanners {
     position: absolute;
     bottom: 20%;
-    width: 100%;
+    width: auto;
     padding-top:1vw;
     padding-bottom:1vw;
     margin: 0px;
@@ -194,22 +192,24 @@ footer {
 
 #Contact-Info {
     width:30%;
-    margin:10px 0px 20px 30px;
-    border-left:1px solid black;
+    border-left:0.1vw solid black;
+    margin:1vw;
+    margin-right:0vw;
     float:left;
+    word-wrap: break-word;
 }
 
 #Contact-Input {
-    border-left:1px solid black;
-    margin:10px 30px 20px 25px;
+    border-left:0.1vw solid black;
+    margin:1vw;
     float:left;
-    width:554px;
+    width:60%;
     padding:0px;
 }
 
 .ContOption {
     width:90%;
-    margin:10px;
+    margin:1vw;
 }
 
 input[type=text]:focus {
@@ -225,36 +225,21 @@ input[type=text]:focus {
 label,
 input {
     width:100%;
-    margin-right:30px;
 } 
-
-#fname,
-#lname,
-#email,
-#comment {
-    margin:10px 10px;
-    
-}
 
 label {
     font-weight:bolder;
 }
 .CommentInput {
-    height:200px;
+    height:auto;
     width:100%;
 }
 
-.SubmitButton,
-.ResetButton {
-    margin-left:20px;
+.SubmitButton {
+    margin-left:3%;
+    width:90%;
 }
 
 .SubmitButton {
     float:left;
-    width:200px;
-}
-
-.ResetButton {
-    float:right;
-    width:100px;
 }

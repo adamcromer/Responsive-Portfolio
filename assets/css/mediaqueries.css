@@ -40,6 +40,11 @@
         width:50%;
         left:25%;
     }
+
+    #Contact-Info,
+    #Contact-Input {
+        width:90%;
+    }
 }
 
 @media screen and (max-width: 640px) {
