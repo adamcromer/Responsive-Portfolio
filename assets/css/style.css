@@ -21,37 +21,44 @@ header {
     color:#444349;
     background-color:#abc4ab;
     padding:0px;
-    height:100px;
-    border-bottom:3px solid #dcd6f7;
+    height:15%;
+    border-bottom:0.75vw solid #dcd6f7;
     width:100%;
     position:absolute;
 }
 
 #Head-Cont {
     width:80%;
-    margin:0px 10%;
-    padding:0px;
-    height:100px;
+    margin-left:10%;
+    height:100%;
+    position:relative;
+}
+
+#Header-Left {
+    margin: 0px;
+    width: 20%;
+    height:100%;
+    text-align:center;
+    background-color:#F7F7F2;
+    float:left;
+    font-size:2vw;
+    font-weight:bolder;
     position:relative;
 }
 
 #Header-Name {
-    margin: 0px 0px 0px 0px;
-    width: 20%;
-    height: 65px;
-    padding: 35px 0px 0px 0px;
-    text-align:center;
-    background-color:#F7F7F2;
-    float:left;
-    font-size:24px;
-    font-weight:bolder;
+    position:absolute;
+    width:100%;
+    height:33.3%;
+    top:33.3%;
+    left:0%;
 }
 
 nav {
     float:right;
-    width:40%;
+    width:33.3%;
     position:absolute;
-    top:40%;
+    top:33.3%;
     right:0%;
 }
 
@@ -74,10 +81,10 @@ nav {
 
 h2 {
     background-color:#F7F7F2;
-    padding: 10px 20px 30px 20px;
+    padding: 3%;
     color:#444349;
-    margin:40px 30px 20px 30px;
-    border-bottom:1px solid black;
+    margin:1vw;
+    border-bottom:0.1vw solid black;
     font-family: 'Playfair Display', 'Georgia', Times, Times New Roman, serif; 
     font-size:2vw;
     font-weight:bolder;
@@ -118,6 +125,7 @@ a {
     float:left;
     background-image: url(../images/adamfamilytest2.jpg);
     width:50%;
+    padding:auto;
     transition: background-image 0.3s ease;
 }
 
@@ -138,13 +146,12 @@ a {
 
 footer {
     clear:both;
-    height:50px;
+    height:15%;
     position: absolute;
     bottom: 0;
     width: 100%;
     background-color:#dcd6f7;
-    margin:50px 0px 0px 0px;
-    padding:40px 0px 0px 0px;
+    margin-top:10%;
     text-align:center;
     border-top:0.5vw solid #abc4ab;
     font-style:italic;
@@ -153,10 +160,10 @@ footer {
 }
 
 #Footer-Text {
-    height:10%;
-    line-height:60px;
-    padding:10px 0px 0px 0px;
-    margin:120px 0px 0px 0px;
+    position: absolute;
+    bottom: 0;
+    left: 33.3%;
+    width:33.3%;
 }
 
 .PortSquares {
