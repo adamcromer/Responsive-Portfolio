@@ -58,7 +58,8 @@
         top:30%;
     }
 
-    .NavBarLinks {
+    .NavBarLinks,
+    .PortBanners {
         font-size:3vw;
     }
     
@@ -110,7 +111,8 @@
         width:60%;
     }
 
-    .NavBarLinks {
+    .NavBarLinks,
+    .PortBanners {
         font-size:4vw;
     }
 
@@ -121,5 +123,10 @@
     nav,
     #Header-Name {
         top:20%;
+    }
+
+    .PortSquares {
+        width:80%;
+        margin-left:10%;
     }
 }

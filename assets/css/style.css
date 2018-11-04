@@ -164,14 +164,13 @@ footer {
     height: auto;
     margin-top:2vw;
     margin-bottom:2vw;
-    margin-left:15%;
-    background-color:red;
+    margin-left:10%;
   }
      
  .PortBanners {
     position: absolute;
     bottom: 20%;
-    width: auto;
+    width: 100%;
     padding-top:1vw;
     padding-bottom:1vw;
     margin: 0px;
@@ -188,6 +187,11 @@ footer {
     background-color:#444349;
     color:#F7F7F2;
     font-weight:bolder;
+}
+
+.PortImages {
+    width:100%;
+    height:100%;
 }
 
 #Contact-Info {
