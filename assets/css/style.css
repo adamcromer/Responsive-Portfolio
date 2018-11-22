@@ -183,7 +183,7 @@ footer {
   }
   
 
-.PortBanners:hover {
+.PortSquares:hover .PortBanners{
     background-color:#444349;
     color:#F7F7F2;
     font-weight:bolder;
